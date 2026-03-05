@@ -1,6 +1,7 @@
 # Streamlit 데모 앱
 
 간단한 Streamlit 예제 프로젝트입니다. Streamlit의 다양한 기능을 데모 형태로 보여줍니다.
+E2E dry run marker for issue #2.
 
 ## 📋 기능
 
