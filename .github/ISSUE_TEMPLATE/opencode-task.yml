@@ -1,0 +1,41 @@
+name: OpenCode Task
+description: Track a single OpenCode task with plan linkage
+title: "[OpenCode] "
+labels:
+  - opencode
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: Describe the concrete objective.
+      placeholder: What should be delivered?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define objective checks for completion.
+      placeholder: "- [ ] Criterion 1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plan
+      description: Link or summarize the execution plan.
+      placeholder: ".sisyphus/plans/<plan-name>.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: List key risks and mitigations.
+      placeholder: "Risk: <description> | Mitigation: <description>"
+    validations:
+      required: true
